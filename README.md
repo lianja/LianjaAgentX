@@ -4,4 +4,4 @@ The Python (.py) and LianjaScript (.prg) files in this repo are custom AI Agents
 
 They extend the AI Assistant with additional functionality.
 
-
+You can upload custom AI agents in the "Agents" workspace. 
