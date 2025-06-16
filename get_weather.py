@@ -1,7 +1,7 @@
 # Add this line to agents.conf
 # get_weather.py=get_current_weather(location)
 
-# The TOOL_DEFINITION is used by the AI Assistant
+# The TOOL_DEFINITION is used by the AI Assistant 
 TOOL_DEFINITION = """
 {
   "type":"function",
