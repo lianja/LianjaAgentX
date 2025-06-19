@@ -2,7 +2,7 @@
 	"name":"get_weather",
 	"displayname":"Get current weather",
 	"description":"Fetches the current weather for a specified location",
-	"publisher":"LianjaDev",
+	"author":"LianjaDev",
 	"version":"1.0",
 	"tags":"#agent,#weather,#python"
 }
