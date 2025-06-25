@@ -7,7 +7,7 @@ TOOL_DEFINITION = """
   "type":"function",
   "function":{
 	  "name": "get_current_weather",
-	  "description": "Fetches the current weather for a specified location",
+	  "description": "Get the current weather for a location",
 	  "parameters": {
 	    "type": "object",
 	    "properties": {
@@ -73,4 +73,6 @@ with a temperature of {data['main']['temp']}c and a wind speed of \
     else:
         return "Unable to fetch weather data"
 
+# call the function for testing
+# print(get_current_weather("London")) 
 
