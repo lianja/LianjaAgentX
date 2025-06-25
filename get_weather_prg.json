@@ -1,0 +1,8 @@
+{
+   "name": "get_weather_prg",
+   "displayname": "get_weather_prg",
+   "description": "LianjaScript function to get current weather",
+   "author": "LianjaDev",
+   "version": "1.0",
+   "tags": "#lianjascript #weather"
+}
