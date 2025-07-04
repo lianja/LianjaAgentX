@@ -64,11 +64,9 @@ def get_current_weather(location):
     response = requests.get(base_url, params=params)
     if response.status_code == 200:
     	data = response.json()
-    	result = f"""
-The weather in {location} is {data['weather'][0]['description']} \
+    	result = f"""The weather in {location} is {data['weather'][0]['description']} \
 with a temperature of {data['main']['temp']}c and a wind speed of \
-{data['wind']['speed']}mph\
-    	"""
+{data['wind']['speed']}mph"""
     	return result
     else:
         return "Unable to fetch weather data"
